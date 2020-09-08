@@ -96,10 +96,26 @@ Using the Excel table provided, we modify and analyze the data of 4,000 past Kic
 
 * Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
 
+  The three conclusions that we can draw about Kickstarter campaigns are as below:
+  * Music is most successful crowdfunding service in Kickstarter campaigns with a greater number of successful campaigns whereas food campaign failed the most. Journalism campaign is totally cancelled. 
+  * Classical music, documentary, electronic music, hardware, metal, non-fiction, pop, radio & podcasts, rock, shorts, tabletop games and television sub-categories of campaign are 100% successful. On the other hand, animation, drama, fiction, gadgets, jazz, mobile games, nature, people, places, restaurant and video games are total failure.
+  * May and December have highest and lowest success rate of campaign respectively. During July, campaigns has highest failure rate followed by January and October. Also, maximum number of cancelled campaigns are in July.
+
 * What are some limitations of this dataset?
+
+ Some of limitations of the given dataset could be: 
+ * Data could be incomplete with some of the empty columns.
+ * Data could be biased.
+ * Some of the data might be duplicate.
 
 * What are some other possible tables and/or graphs that we could create?
 
+ We could also use side by side column chart for our data representation.
+ 
 * Use your data to determine whether the mean or the median summarizes the data more meaningfully.
 
+ In our data set, mean describes the data more meaningfully as it includes every value in the provided data set as part of the calculation.
+ 
 * Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
+
+ The variance of successful and unsuccessful campaigns is 713167 and 3776 respectively. There is more variability with successful and unsuccessful campaigns. This doesn’t make sense. We can say that the data is spread widely and is not normally distributed.
