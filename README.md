@@ -107,15 +107,19 @@ Using the Excel table provided, we modify and analyze the data of 4,000 past Kic
   * Data could be incomplete with some of the empty columns.
   * Data could be biased.
   * Some of the data might be duplicate.
+  
 
 * What are some other possible tables and/or graphs that we could create?
 
   We could also use side by side column chart for our data representation.
+  
  
 * Use your data to determine whether the mean or the median summarizes the data more meaningfully.
 
   In our data set, mean describes the data more meaningfully as it includes every value in the provided data set as part of the calculation.
+  
  
 * Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
 
   The variance of successful and unsuccessful campaigns is 713167 and 3776 respectively. There is more variability with successful and unsuccessful campaigns. This  doesn’t make sense. We can say that the data is spread widely and is not normally distributed.
+  
