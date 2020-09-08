@@ -12,6 +12,8 @@ Using the Excel table provided, we modify and analyze the data of 4,000 past Kic
 
   * Create a new column O called Percent Funded that uses a formula to uncover how much money a campaign made to reach its initial goal.
 
+![excel](https://github.com/UoT-Bootcamp/Excel-Challenge/blob/master/screenshots/conditional_formatting.png)
+
 * Use conditional formatting to fill each cell in the Percent Funded column using a three-color scale. The scale should start at 0 and be a dark shade of red, transitioning to green at 100, and blue at 200.
 
   * Create a new column P called Average Donation that uses a formula to uncover how much each backer for the project paid on average.
@@ -20,11 +22,15 @@ Using the Excel table provided, we modify and analyze the data of 4,000 past Kic
 
   * Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per category.
 
+![excel](https://github.com/UoT-Bootcamp/Excel-Challenge/blob/master/screenshots/category_vs_count.png)
+
   * Create a stacked column pivot chart that can be filtered by country based on the table you have created.
 
   * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
 
   * Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
+
+![excel](https://github.com/UoT-Bootcamp/Excel-Challenge/blob/master/screenshots/subcategory_vs_count.png)
 
 * The dates stored within the deadline and launched_at columns use Unix timestamps. Fortunately for us, there is a formula that can be used to convert these timestamps to a normal date.
 
@@ -35,6 +41,8 @@ Using the Excel table provided, we modify and analyze the data of 4,000 past Kic
   * Create a new sheet with a pivot table with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on parent category and Years.
 
   * Now create a pivot chart line graph that visualizes this new table.
+
+![excel](https://github.com/UoT-Bootcamp/Excel-Challenge/blob/master/screenshots/date_conversion_vs_state.png)
 
 * Create a new sheet with 8 columns:
 
@@ -62,6 +70,8 @@ Using the Excel table provided, we modify and analyze the data of 4,000 past Kic
   * 45000 to 49999 <br/>
   * Greater than or equal to 50000 <br/>
 
+![excel](https://github.com/UoT-Bootcamp/Excel-Challenge/blob/master/screenshots/goals.png)
+
 * Using the COUNTIFS() formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the Number Successful, Number Failed, and Number Canceled columns with this data.
 
 * Add up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
@@ -78,6 +88,8 @@ Using the Excel table provided, we modify and analyze the data of 4,000 past Kic
   * The maximum number of backers. <br/>
   * The variance of the number of backers. <br/>
   * The standard deviation of the number of backers. <br/>
+
+![excel](https://github.com/UoT-Bootcamp/Excel-Challenge/blob/master/screenshots/statistics.png)
 
 
 ### Q & A:
